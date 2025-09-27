@@ -28,3 +28,16 @@
        - provare diversi prompt 
        - implementare chat history
        - 
+
+- Dependencies:
+pip install streamlit
+pip install rake-nltk
+pip install langchain
+pip install langchain-community
+pip install chromadb
+pip install rank_bm25
+pip install langchain-experimental
+pip install langchain_ollama
+pip install langchain_chroma
+
+ssh fanar@192.168.43.48 -p220
