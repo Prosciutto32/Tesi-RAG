@@ -19,7 +19,7 @@
         nltk.download('stopwords')
         nltk.download('punkt_tab')
   
-  Install Ollama:
+  Install Ollama: \n
         install olama from the Ollama doc
         download all the models present in the 2 arrays chat_models & embedding_models
   
