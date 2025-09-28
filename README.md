@@ -20,9 +20,8 @@
         nltk.download('punkt_tab')
   
   Install Ollama:
-
         install olama from the Ollama doc
-        download all the models present in the 2 arrays chat models & embedding models
+        download all the models present in the 2 arrays chat_models & embedding_models
   
 ## Run
   To run the code from the folder write streamlit run streamilt_unito
