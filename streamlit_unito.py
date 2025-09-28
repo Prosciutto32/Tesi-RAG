@@ -62,10 +62,11 @@ if app_mode == "RAG Interface":
     )
     st.sidebar.button("Reset Prompt", on_click=reset_preprompt_callback)
 
+    chat_models = ["llama3.2","cogito:3b","alibayram/smollm3", "all"]
     # Model selection in the sidebar
     model_type = st.sidebar.selectbox(
         "Pick the model you want to use",
-        ("llama3.2","cogito:3b","alibayram/smollm3", "all")
+        embedding_models
     )
 
     history_length = st.sidebar.slider("Number of history messages to use", min_value=2, max_value=7, value=4)
