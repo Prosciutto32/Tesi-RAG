@@ -12,7 +12,7 @@ To run the RAG Tutor, you'll need **Python 3** and **Ollama**.
 
 Install **Ollama** following the instructions in the [Ollama documentation](https://ollama.com/doc).
 
-After installation, you must download the **language and embedding models** referenced in the `chat_models` and `embedding_models` arrays within the application's source code.
+After installation, you must download the **language and embedding models** referenced in the `chat_models` and `embedding_models` arrays within the application's source code "streamlit_unito".
 
 ### 2. Install Python Dependencies
 
